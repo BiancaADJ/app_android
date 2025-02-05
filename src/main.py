@@ -14,11 +14,29 @@ from PyQt6.QtWidgets import (
     QPushButton, QTableWidget, 
     QErrorMessage, QTimeEdit, QMainWindow
 )
-from PyQt5.QtCore import QTimer, QTime
+from PyQt6.QtCore import QTimer, QTime
+from PyQt6.QtGui import QMovie
+from gif_loader import add_gif_to_label
 
 app = QtWidgets.QApplication([])
 
+def main_close():
+    main.close()
+
+def inicio():
+    main.show() # Pausar por 5 segundos antes de mudar de janela
+    QTimer.singleShot(5000, main_close)
+    note.show()
+
 # .ui
 main = uic.loadUi('.ui/main.ui')
-main.show()
+note = uic.loadUI('.ui/note.ui')
+
+# .gif_loader
+label = main.findChild(QtWidgets.QLabel, "Qmove")
+add_gif_to_label(label, "./img/icons8-spinner.gif")
+
+
+
+inicio()
 app.exec()

@@ -1,0 +1,15 @@
+Cores padrões
+
+Tela inicial
+#000000;
+rgb(0, 255, 200);
+#C7E8E5;
+#91C8C3;
+
+Post-its
+#68cfe5;
+#6e9fe1;
+#f6ee86;
+#f2d98d;
+#88d37f;
+#5fc682
