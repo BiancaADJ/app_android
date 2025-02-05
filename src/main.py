@@ -22,21 +22,19 @@ app = QtWidgets.QApplication([])
 
 def main_close():
     main.close()
+    note.show()
 
 def inicio():
-    main.show() # Pausar por 5 segundos antes de mudar de janela
-    QTimer.singleShot(5000, main_close)
-    note.show()
+    main.show() # Pausar por 50 segundos antes de mudar de janela
+    QTimer.singleShot(50000, main_close)
 
 # .ui
 main = uic.loadUi('.ui/main.ui')
-note = uic.loadUI('.ui/note.ui')
+note = uic.loadUi('.ui/note.ui')
 
 # .gif_loader
 label = main.findChild(QtWidgets.QLabel, "Qmove")
-add_gif_to_label(label, "./img/icons8-spinner.gif")
-
-
+add_gif_to_label(label, "./assets/img/icons8-spinner.gif")
 
 inicio()
 app.exec()

@@ -21,7 +21,7 @@
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>95</y>
+      <y>90</y>
       <width>161</width>
       <height>151</height>
      </rect>
@@ -30,7 +30,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../img/post-it.png</pixmap>
+     <pixmap>../assets/img/post-it.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -59,7 +59,7 @@
      </property>
      <property name="styleSheet">
       <string notr="true">color: black;
-font: 20pt &quot;Miriam CLM&quot;;</string>
+                                   font: 20pt &quot;Miriam CLM&quot;;</string>
      </property>
      <property name="text">
       <string>NoteFul</string>
@@ -81,7 +81,7 @@ font: 20pt &quot;Miriam CLM&quot;;</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>../img/cinematografia.png</pixmap>
+      <pixmap>../assets/img/cinematografia.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -100,7 +100,7 @@ font: 20pt &quot;Miriam CLM&quot;;</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>../img/lixeira.png</pixmap>
+      <pixmap>../assets/img/lixeira.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -117,7 +117,7 @@ font: 20pt &quot;Miriam CLM&quot;;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(0, 255, 200);
-border-radius: 10px;</string>
+                                   border-radius: 10px;</string>
      </property>
     </widget>
    </widget>
@@ -132,7 +132,7 @@ border-radius: 10px;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 700 15pt &quot;Arial&quot;;
-color: black;</string>
+                              color: black;</string>
     </property>
     <property name="text">
      <string>BEM VINDO!</string>
@@ -154,7 +154,7 @@ color: black;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../img/icons8-spinner.gif</pixmap>
+     <pixmap>../assets/img/icons8-spinner.gif</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
