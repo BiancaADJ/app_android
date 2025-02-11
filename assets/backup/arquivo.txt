@@ -13,3 +13,9 @@ Post-its
 #f2d98d;
 #88d37f;
 #5fc682
+
+Cinza Escuro: #1C1C1C
+Cinza Médio: #4B4B4B
+Cinza: #7D7D7D
+Cinza Claro: #AFAFAF
+Cinza Prata: #C0C0C0
